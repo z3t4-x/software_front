@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+.navbar{
+    color: #fff;
+    background-color: rgb(35, 164, 250);
+}
+
+.navbar-nav .nav-link {
+    font-size: 22px;
+    color: #fff;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 100px; /* Ajusta la cantidad de margen derecho según tus preferencias */
+}
+
+.salida{
+    font-size: 30px;
+}
+
+
+
+.btn-logout{
+    margin-right: 15px !important;
+}
