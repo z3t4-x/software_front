@@ -15,13 +15,14 @@ const routes: Routes = [
 
   { path: 'principal', component: PrincipalComponent, children: [
     { path: 'producto', component: ProductosComponent },
-    { path: 'pagos/:id', component: PagosAlquilerComponent }
+    { path: 'pagos/:id', component: PagosAlquilerComponent },
+    {path: 'footer', component: FooterComponent},
  
     
   ] },
   {path: 'registro', component: RegistroUserComponent},
 
-  {path: 'footer', component: FooterComponent},
+
  
 ];
 
